@@ -82,6 +82,11 @@ const person = {
 person.lastName = 'Best'
 console.log(person.hasOwnProperty('skills'))
 console.log(Object.assign(person, array[4]))
+let baddo = Object.assign({}, person)
+console.log(baddo)
+console.log(Object.keys(person))
+console.log(Object.values(person))
+console.log(Object.entries(person))
 console.log(person)
 console.log(person.lastName)
 console.log(person['who I am'])
